@@ -75,13 +75,9 @@ var interval = setInterval(function(){
   document.getElementById('count').innerHTML=count;
   count--;
   if (count === 0){
-    clearInterval(interval);
-    document.getElementById('count').innerHTML='Done';
-    // or...
-    alert("You're out of time!");
+    showScores();
   }
 }, 1000);
-
 // create questions here
 var questions = [
     new Question("Who is not a Lannister?", ["Jamie", "Cersei","Tywin", "Rob"], "Rob"),
