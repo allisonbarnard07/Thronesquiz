@@ -66,8 +66,9 @@ function showScores() {
     gameEndHTML += "<h2 id='score'> Your scores: " + thronesQuiz.score + "</h2>";
     var element = document.getElementById("thronesQuiz");
     element.innerHTML = gameEndHTML;
-};
 
+    
+};
 
 
 var count = 10;
@@ -78,6 +79,9 @@ var interval = setInterval(function(){
     showScores();
   }
 }, 1000);
+
+
+
 // create questions here
 var questions = [
     new Question("Who is not a Lannister?", ["Jamie", "Cersei","Tywin", "Rob"], "Rob"),
