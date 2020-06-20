@@ -63,15 +63,14 @@ function choice(id, choice) {
 
 function showScores() {
     var gameEndHTML = "<h1>Result</h1>";
-    gameEndHTML += "<h2 id='score'> Your scores: " + thronesQuiz.score + "</h2>";
+    gameEndHTML += "<h2 id='score'> Your score: " + thronesQuiz.score + "</h2>" + "<div class = 'container'> <div id = 'end' class = 'flex-center flex-column') <form> <input type = 'text' inititals = 'initials' placeholder = 'AB'/> </form> <button type='submit' class='btn' id='saveScoreButton' onclick='saveHighSchore(event)'> Save </button> </form>";
     var element = document.getElementById("thronesQuiz");
     element.innerHTML = gameEndHTML;
-
     
 };
 
 
-var count = 10;
+var count = 45;
 var interval = setInterval(function(){
   document.getElementById('count').innerHTML=count;
   count--;
