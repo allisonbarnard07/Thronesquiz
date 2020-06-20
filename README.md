@@ -5,3 +5,5 @@ This homework was designed for students to create a timed quiz using HTML, CSS a
 Github link: https://github.com/allisonbarnard07/Thronesquiz
 <br>
 Website link: https://allisonbarnard07.github.io/Thronesquiz/
+<br>
+Preview: ![Thronesquiz](Thronesquiz.png)
