@@ -80,7 +80,7 @@ var interval = setInterval(function(){
 
 
 
-// create questions here
+//questions
 var questions = [
     new Question("Who is not a Lannister?", ["Jamie", "Cersei","Tywin", "Rob"], "Rob"),
     new Question("Who is related to the Hound?", ["The Mountain", "Tyrion", "Grey Worm", "Jon Snow"], "The Mountain"),
@@ -94,8 +94,8 @@ var questions = [
     new Question("In the books, what body part was Tyrion missing?", ["Nose", "Eye", "Arm", "Hand"], "Nose")
 ];
 
-// create quiz
+
 var thronesQuiz = new tQuiz(questions);
 
-// display quiz
+
 populate();
