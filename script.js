@@ -1,4 +1,3 @@
-// code by webdevtrick (https://webdevtrick.com)
 function tQuiz(questions) {
     this.score = 0;
     this.questions = questions;
